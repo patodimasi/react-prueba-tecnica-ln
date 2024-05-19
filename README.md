@@ -1,8 +1,13 @@
-# React + Vite
+* Challengue react-prueba-tecnica-ln
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*Levantar el proyecto de manera local:
+-Clonar el proyecto desde el repositorio: https://github.com/patodimasi/react-prueba-tecnica-ln.git
+-Se abre una terminal y se ejecutan el siguiente comando:
+npm install (instala las dependencias necesarias que se encuentran en el package.json).
+-Se corre el proyecto mediante: npm run dev
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*Librerias instaladas:
+-Vite 
+-Vitest, testing-library/react, testing-library/jest-dom
+-Para correr los test: npx vitest run test
+*Los test de cada componente se encuentran dentro de la carpeta de cada uno de ellos.

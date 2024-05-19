@@ -1,6 +1,6 @@
 import React from 'react'
 import { Routes, Route, Link, BrowserRouter} from 'react-router-dom';
-import { Header} from './components/Header'
+import { Header} from './components/Header/Header'
 import { ArticleContextProvider } from './context/ArticleContext';
 
 import './App.css'

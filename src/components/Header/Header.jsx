@@ -1,9 +1,9 @@
 import { useState, useEffect, useContext } from 'react'
 import { Link, NavLink, Outlet,Routes,Route } from 'react-router-dom';
-import { Articles } from './Articles';
-import { Row } from './Row/Row';
-import { Tag } from './Tag/Tag';
-import { useGet } from '../hooks/useGet';
+import { Articles } from '../Articles/Articles';
+import { Row } from '../Row/Row';
+import { Tag } from '../Tag/Tag';
+import { useGet } from '../../hooks/useGet';
 
 export const Header = () =>{
 

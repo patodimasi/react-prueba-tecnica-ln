@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import ArticleContext  from '../context/ArticleContext';
-import { useArticle } from '../hooks/useArticle';
-import { formatDate } from '../services/format';
+import ArticleContext  from '../../context/ArticleContext';
+import { useArticle } from '../../hooks/useArticle';
+import { formatDate } from '../../services/format';
 
 export const Articles = () =>{
     const { slug } = useParams();
@@ -10,8 +10,6 @@ export const Articles = () =>{
 
     const {artFilterSlug} = useArticle(slug,artContext)
     
-    console.log("son los articulos", artContext)
-    console.log("son los articulos filtrados", artFilterSlug)
     return(
         <>
             <section className='row-gap-tablet-2 row-gap-deskxl-3 hlp-degrade'>
